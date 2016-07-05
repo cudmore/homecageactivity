@@ -28,13 +28,13 @@ Requires a Raspberry Pi. Clone the repository and run code as described above in
 
 ## GPIO Pins
 
-<IMG SRC="images/Raspberry-Pi-GPIO-Layout-Model-B-Plus.png" width=100>
-
     23/24 - wheel 1/2
     14/15 - wheel 3/4
     8 - mosfet - white
     7 - mosfet - IR
     17 - temperature sensor
+
+<IMG SRC="images/Raspberry-Pi-GPIO-Layout-Model-B-Plus.png" width=200>
        
 ## To Do
 
