@@ -5,7 +5,7 @@ Run each of these in a [screen][screen] session.
     python video.py
     python testhome.py
 
-Detach/exit 'screen' sessions but keep the process running with ctrl+a then d
+Detach/exit `screen` sessions but keep the process running with ctrl+a then d
 
 This code uses the class defined in home.py
   
@@ -17,7 +17,7 @@ This code uses the class defined in home.py
  - Records temperature every 30 seconds (is this correct? Seems too much?)
  - Listens for triggering of 4 magnetic hall sensors (2 per wheel) and records to file. 
 
-All events are logged to file in /home/pi/video/. The name of the log file is timestamp for when code is started (YYYYMMDD_HHMMSS.txt).
+All events are logged to file in `/home/pi/video/`. The name of the log file is timestamp for when code is started (YYYYMMDD_HHMMSS.txt).
 
 ## Installation
 
