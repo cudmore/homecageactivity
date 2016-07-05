@@ -25,7 +25,17 @@ Requires a Raspberry Pi. Clone the repository and run code as described above in
     
     git clone https://github.com/cudmore/homecageactivity.git
     
-    
+
+## GPIO Pins
+
+<IMG SRC="images/Raspberry-Pi-GPIO-Layout-Model-B-Plus.png" width=100>
+
+    23/24 - wheel 1/2
+    14/15 - wheel 3/4
+    8 - mosfet - white
+    7 - mosfet - IR
+    17 - temperature sensor
+       
 ## To Do
 
  - Get rid of all reference to sql crap including bobsql. Just save everyhting in a local file.
