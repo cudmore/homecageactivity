@@ -21,8 +21,15 @@ All events are logged to file in /home/pi/video/. The name of the log file is ti
 
 ## Installation
 
-Requires a Raspberry Pi
+Requires a Raspberry Pi. Clone the repository and run code as described above in 'Usage'.
+    
+    git clone https://github.com/cudmore/homecageactivity.git
+    
+    
+## To Do
 
+ - Get rid of all reference to sql crap including bobsql. Just save everyhting in a local file.
+ 
 ## Change log
 
  - 20160705 Rebuilding the system for Valerie. I erased the SD card on original Raspbery when installing Trigger Camera on Pi 3 for Zeng You. Copied from robertcudmore.org/raspberry/raspberrycam2/homecage.
