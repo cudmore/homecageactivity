@@ -51,12 +51,17 @@ Requires a Raspberry Pi. Clone the repository and run code as described above in
 |IR LEDS
 |White LED
 |DHT Temperature and Humidity Sensor
+| Low Profile RUnning Wheels (Med Associates)
 |4x hall effect sensors
 |
-|
+|Wood or 80/20 parts to build frame
+|Something to hold camera
+
 ## To Do
 
- - Get rid of all reference to sql crap including bobsql. Just save everyhting in a local file.
+ - Done: Get rid of all reference to sql crap including bobsql. Just save everyhting in a local file.
+ - Write simple plotting and analysis functions
+ - Wrap code in web interface (video.py and home.py should be two seperate processes)
  
 ## Change log
 
