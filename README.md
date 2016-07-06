@@ -34,7 +34,7 @@ Requires a Raspberry Pi. Clone the repository and run code as described above in
     7 - mosfet - IR
     17 - temperature sensor
 
-<IMG SRC="images/Raspberry-Pi-GPIO-Layout-Model-B-Plus.png" width=400>
+<IMG SRC="images/Raspberry-Pi-GPIO-Layout-Model-B-Plus.png" width=700>
        
 ## Parts List
 
