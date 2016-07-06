@@ -36,6 +36,24 @@ Requires a Raspberry Pi. Clone the repository and run code as described above in
 
 <IMG SRC="images/Raspberry-Pi-GPIO-Layout-Model-B-Plus.png" width=200>
        
+## Parts List
+
+|Item							|Cost		|Link
+|:-----							|:-----		|:-----
+|Raspberry Pi Model B+/2/3		|$35	|xxx
+|5V >2A AC/DC Adapter
+|16GB SD Card (class 10)
+|
+|Raspberry Pi NoIR Camera (5MP or 8MP)
+|Camera Ribbon Cable
+|
+|SainSmart 5V relay (2 channels)
+|IR LEDS
+|White LED
+|DHT Temperature and Humidity Sensor
+|4x hall effect sensors
+|
+|
 ## To Do
 
  - Get rid of all reference to sql crap including bobsql. Just save everyhting in a local file.
