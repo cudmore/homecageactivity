@@ -28,10 +28,18 @@ Requires a Raspberry Pi. Clone the repository and run code as described above in
 
 ## GPIO Pins
 
-    23/24 - wheel 1/2
-    14/15 - wheel 3/4
-    8 - mosfet - white
-    7 - mosfet - IR
+|Pin		|Goes To
+|:-----		|:-----
+|8			|5V Relay channel 1 (white light)
+|7			|5V Relay channel 1 (IR light)
+|
+|17			|DHT22 Temperature/Humidity Sensor
+|
+|23			|Wheel 1, sensor 1
+|24			|Wheel 1, sensor 2
+|14			|Wheel 2, sensor 1
+|15			|Wheel 2, sensor 2
+
     17 - temperature sensor
 
 <IMG SRC="images/Raspberry-Pi-GPIO-Layout-Model-B-Plus.png" width=700>
@@ -51,8 +59,10 @@ Requires a Raspberry Pi. Clone the repository and run code as described above in
 |IR LEDS
 |White LED
 |DHT Temperature and Humidity Sensor
-| Low Profile RUnning Wheels (Med Associates)
+|Low Profile Running Wheels (Med Associates)
 |4x hall effect sensors
+|
+|DHT22 Temperature and Humidity Sensor
 |
 |Wood or 80/20 parts to build frame
 |Something to hold camera
