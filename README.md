@@ -31,7 +31,7 @@ Requires a Raspberry Pi. Clone the repository and run code as described above in
 |Pin		|Goes To
 |:-----		|:-----
 |8			|5V Relay channel 1 (white light)
-|7			|5V Relay channel 1 (IR light)
+|7			|5V Relay channel 2 (IR light)
 |
 |17			|DHT22 Temperature/Humidity Sensor
 |
@@ -40,7 +40,7 @@ Requires a Raspberry Pi. Clone the repository and run code as described above in
 |14			|Wheel 2, sensor 1
 |15			|Wheel 2, sensor 2
 
-    17 - temperature sensor
+This image is oriented as if pins on Raspberry Pi are on the top-left.
 
 <IMG SRC="images/Raspberry-Pi-GPIO-Layout-Model-B-Plus.png" width=700>
        
