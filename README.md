@@ -34,13 +34,13 @@ Requires a Raspberry Pi. Clone the repository and run code as described above in
     7 - mosfet - IR
     17 - temperature sensor
 
-<IMG SRC="images/Raspberry-Pi-GPIO-Layout-Model-B-Plus.png" width=200>
+<IMG SRC="images/Raspberry-Pi-GPIO-Layout-Model-B-Plus.png" width=400>
        
 ## Parts List
 
 |Item							|Cost		|Link
 |:-----							|:-----		|:-----
-|Raspberry Pi Model B+/2/3		|$35	|xxx
+|Raspberry Pi Model B+/2/3		|	|
 |5V >2A AC/DC Adapter
 |16GB SD Card (class 10)
 |
