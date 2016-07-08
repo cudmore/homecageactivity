@@ -10,9 +10,11 @@ All events are logged to file in `/home/pi/video/`. The name of the log file is 
 
 ## Installation
 
- - Requires a Raspberry Pi. See [this post][1] to install a base Raspian system on a Raspberry Pi.
+### Requires a Raspberry Pi.
 
- - Install screen
+See [this post][1] to install a base Raspian system on a Raspberry Pi.
+
+### Install screen
  
      ```
      sudo apt-get install screen
@@ -24,7 +26,9 @@ We need to use screen so the code continue to run even after the pi user logs ou
     ctrl+a then d
 	```
 	
- - All code is written in Python using widely used libraries. Most of these Python libraries should already be installed by default. If libraries are missing, here are the required libraries.
+### Required Python libraries
+
+All code is written in Python using widely used libraries. Most of these Python libraries should already be installed by default. If libraries are missing, here are the required libraries.
 
     ```
     RPi.GPIO
@@ -32,13 +36,15 @@ We need to use screen so the code continue to run even after the pi user logs ou
 	Adafruit_DHT # requires install
 	```
 	
- - To use a [DHT22 temperature sensor][3], install the [Adafruit_DHT][2] library.
+#### Using a DHT22 temperature sensor
 
- - Clone the repository
+To use a [DHT22 temperature sensor][3], install the [Adafruit_DHT][2] library.
+
+### Clone the homecageactivity github repository
     
     git clone https://github.com/cudmore/homecageactivity.git
     
- - Run the code
+## Runing the code
 
     ```
     cd homecageactivity
