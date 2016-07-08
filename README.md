@@ -101,7 +101,7 @@ This image is oriented as if pins on Raspberry Pi are in the top-left corner.
 |4x hall effect sensors					|$1			|[link](https://www.sparkfun.com/products/9312)
 |4x 660 Ohm resistors (gold/brown/blue/blue)
 |
-|DHT22 Temperature and Humidity Sensor	|$10 or $2.50	|[adafruit link](https://www.adafruit.com/products/385?gclid=Cj0KEQjwnv27BRCmuZqMg_Ddmt0BEiQAgeY1l1NmWl3j3_Q5uEAS-RAe3_luII1h8TaL2mgiaDXgFUYaAr_48P8HAQ) or [ali express](http://www.aliexpress.com/w/wholesale-dht22.html)
+|DHT22 Temperature and Humidity Sensor	|$10 or $2.50	|[adafruit](https://www.adafruit.com/products/385?gclid=Cj0KEQjwnv27BRCmuZqMg_Ddmt0BEiQAgeY1l1NmWl3j3_Q5uEAS-RAe3_luII1h8TaL2mgiaDXgFUYaAr_48P8HAQ) or [ali express](http://www.aliexpress.com/w/wholesale-dht22.html)
 |
 |Wood or [80/20 parts][4] to build frame
 |Something to hold camera
