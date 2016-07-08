@@ -86,22 +86,22 @@ This image is oriented as if pins on Raspberry Pi are in the top-left corner.
 
 |Item									|Cost		|Link
 |:-----									|:-----		|:-----
-|Raspberry Pi Model B+/2/3				|			|
-|5V >2A AC/DC Adapter
-|16GB SD Card (class 10)
+|Raspberry Pi Model B+/2/3				|$35		|[mcm electronics](http://www.mcmelectronics.com/content/en-US/raspberry-pi&?&gclid=Cj0KEQjwnv27BRCmuZqMg_Ddmt0BEiQAgeY1l6xF6o9AZdmy8KMorF1c5r6MKLaAhPFL6fchJ8r2XUUaAgCR8P8HAQ)
+|5V >2A AC/DC Adapter					|$6			|[mcm electronics](http://www.mcmelectronics.com/product/28-19336)
+|16GB SD Card (class 10)				|$8			|[amazon](https://www.amazon.com/s/?ie=UTF8&keywords=16+gig+class+10&tag=googhydr-20&index=aps&hvadid=110479542160&hvpos=1t1&hvexid=&hvnetw=g&hvrand=13177314294409354609&hvpone=&hvptwo=&hvqmt=b&hvdev=c&ref=pd_sl_3fv20t1iyw_b)
 |
-|Raspberry Pi NoIR Camera (5MP or 8MP)
+|Raspberry Pi NoIR Camera (5MP or 8MP)	|$30		|[adafruit](https://www.adafruit.com/products/3100)
 |>1 meter ribbon cable for camera
 |
 |SainSmart 5V relay (2 channels)
 |IR LEDS (make sure they are less than 900 nm)	|$1.15	|[link](http://www.mouser.com/ProductDetail/Vishay-Semiconductors/TSFF5210/?qs=%2Fjqivxn91ccEC8ExOpxzXA%3D%3D)
 |White LED
 |
-|Low Profile Non Counting Running Wheels (Med Associates, ENV-044-02)	|		[link](http://www.med-associates.com/product/non-counting-running-wheel-for-mouse/)
+|Low Profile Non Counting Running Wheels (Med Associates, ENV-044-02)	|	|		[link](http://www.med-associates.com/product/non-counting-running-wheel-for-mouse/)
 |4x hall effect sensors					|$1			|[link](https://www.sparkfun.com/products/9312)
 |4x 660 Ohm resistors (gold/brown/blue/blue)
 |
-|DHT22 Temperature and Humidity Sensor
+|DHT22 Temperature and Humidity Sensor	|$10 or $2.50	|[adafruit link](https://www.adafruit.com/products/385?gclid=Cj0KEQjwnv27BRCmuZqMg_Ddmt0BEiQAgeY1l1NmWl3j3_Q5uEAS-RAe3_luII1h8TaL2mgiaDXgFUYaAr_48P8HAQ) or [ali express](http://www.aliexpress.com/w/wholesale-dht22.html)
 |
 |Wood or [80/20 parts][4] to build frame
 |Something to hold camera
