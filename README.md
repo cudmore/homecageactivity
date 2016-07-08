@@ -30,6 +30,7 @@ All events are logged to file in `/home/pi/video/`. The name of the log file is 
     
  - Run the code
 
+    ```
     cd homecageactivity
     screen
     python video.py
@@ -37,7 +38,8 @@ All events are logged to file in `/home/pi/video/`. The name of the log file is 
     screen
     python testhome.py
     #exit screen with ctrl+a then d
-
+    ```
+    
 We need to use screen so the code continue to run even after the pi user logs out. Detach/exit `screen` sessions but keep the process running with ctrl+a then d.
 
     ctrl+a then d
