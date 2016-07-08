@@ -91,11 +91,11 @@ This image is oriented as if pins on Raspberry Pi are in the top-left corner.
 |16GB SD Card (class 10)				|$8			|[amazon](https://www.amazon.com/s/?ie=UTF8&keywords=16+gig+class+10&tag=googhydr-20&index=aps&hvadid=110479542160&hvpos=1t1&hvexid=&hvnetw=g&hvrand=13177314294409354609&hvpone=&hvptwo=&hvqmt=b&hvdev=c&ref=pd_sl_3fv20t1iyw_b)
 |
 |Raspberry Pi NoIR Camera (5MP or 8MP)	|$30		|[adafruit](https://www.adafruit.com/products/3100)
-|>1 meter ribbon cable for camera
+|>1 meter ribbon cable for camera		|$3			|[adafruit](https://www.adafruit.com/products/1731)
 |
-|SainSmart 5V relay (2 channels)
+|SainSmart 5V relay (2 channels)		|$10		|[sainsmart](http://www.sainsmart.com/arduino-pro-mini.html)[amazon](https://www.amazon.com/SainSmart-101-70-100-2-Channel-Relay-Module/dp/B0057OC6D8)
 |IR LEDS (make sure they are less than 900 nm)	|$1.15	|[link](http://www.mouser.com/ProductDetail/Vishay-Semiconductors/TSFF5210/?qs=%2Fjqivxn91ccEC8ExOpxzXA%3D%3D)
-|White LED
+|White LED (single led or strip)		|$1 or $5		|[sparkfun single](https://www.sparkfun.com/products/531) or [mouser strip](http://www.mouser.com/ProductDetail/JKL-Components/ZM-1968-CW/?qs=KUIzHt%2Fe91klcUtDWfJwhA%3D%3D&gclid=Cj0KEQjwnv27BRCmuZqMg_Ddmt0BEiQAgeY1l4wLADWjvwtGyfVCdmIcRtSdBy2aHZ_GjnWzUa5ycMgaAgYv8P8HAQ)
 |
 |Low Profile Non Counting Running Wheels (Med Associates, ENV-044-02)	|	|		[link](http://www.med-associates.com/product/non-counting-running-wheel-for-mouse/)
 |4x hall effect sensors					|$1			|[link](https://www.sparkfun.com/products/9312)
