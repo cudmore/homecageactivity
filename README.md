@@ -24,11 +24,9 @@ We need to use `screen` so the code continues to run even after the pi user logs
 
 All code is written in Python using widely used libraries. Most of these Python libraries should already be installed by default. If libraries are missing, here are the required libraries.
 
-    ```
     RPi.GPIO
     picamera
 	Adafruit_DHT # requires install
-	```
 	
 #### Using a DHT22 temperature sensor
 
@@ -40,7 +38,6 @@ To use a [DHT22 temperature sensor][3], install the [Adafruit_DHT][2] library.
     
 ## Running the code
 
-    ```
     cd homecageactivity
     screen
     python video.py
@@ -48,7 +45,7 @@ To use a [DHT22 temperature sensor][3], install the [Adafruit_DHT][2] library.
     screen
     python testhome.py
     #exit screen with ctrl+a then d
-    ```
+
 ## Returning to the running code
 
     #login as user pi using ssh
