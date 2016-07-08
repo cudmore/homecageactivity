@@ -16,9 +16,7 @@ See [this post][1] to install a base Raspian system on a Raspberry Pi.
 
 ### Install screen
  
-    ```
     sudo apt-get install screen
-    ```
      
 We need to use `screen` so the code continues to run even after the pi user logs out. Detach/exit `screen` sessions but keep the process running with ctrl+a then d.
 
