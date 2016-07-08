@@ -1,9 +1,9 @@
 ## Features
 
- - Records video in 5 minute chunks, saving .h264 files into '/home/pi/video/' folder.
+ - Records video in 5 minute chunks, saving .h264 files into video/ folder.
  - Turns white light on during the day, 6 AM to 6 PM
  - Turns IR light on during the night, 6 PM to 6 AM
- - Records temperature every 30 seconds (is this correct? Seems too much?)
+ - Optionally records temperature every 30 seconds (is this correct? Seems too much?)
  - Listens for triggering of 4 magnetic hall sensors (2 per wheel) and records to file. 
 
 All events are logged to file in `/home/pi/video/`. The name of the log file is timestamp for when code is started (YYYYMMDD_HHMMSS.txt).
@@ -20,7 +20,7 @@ See [this post][1] to install a base Raspian system on a Raspberry Pi.
      sudo apt-get install screen
      ```
      
-We need to use screen so the code continue to run even after the pi user logs out. Detach/exit `screen` sessions but keep the process running with ctrl+a then d.
+We need to use `screen` so the code continues to run even after the pi user logs out. Detach/exit `screen` sessions but keep the process running with ctrl+a then d.
 
     ```
     ctrl+a then d
@@ -44,7 +44,7 @@ To use a [DHT22 temperature sensor][3], install the [Adafruit_DHT][2] library.
     
     git clone https://github.com/cudmore/homecageactivity.git
     
-## Runing the code
+## Running the code
 
     ```
     cd homecageactivity
@@ -55,7 +55,15 @@ To use a [DHT22 temperature sensor][3], install the [Adafruit_DHT][2] library.
     python testhome.py
     #exit screen with ctrl+a then d
     ```
+## Returning to the running code
+
+    #login as user pi using ssh
+    #screen -r #gives a list of your two screen session
+    screen -r xxx #to return to the first screen
+    screen -r xxx #to return to the second screen session
     
+The Python code can be stopped with `ctrl+c`.
+  
 ## GPIO Pins
 
 |Pin		|Goes To
@@ -76,25 +84,26 @@ This image is oriented as if pins on Raspberry Pi are in the top-left corner.
        
 ## Parts List
 
-|Item							|Cost		|Link
-|:-----							|:-----		|:-----
-|Raspberry Pi Model B+/2/3		|	|
+|Item									|Cost		|Link
+|:-----									|:-----		|:-----
+|Raspberry Pi Model B+/2/3				|			|
 |5V >2A AC/DC Adapter
 |16GB SD Card (class 10)
 |
 |Raspberry Pi NoIR Camera (5MP or 8MP)
-|Camera Ribbon Cable
+|>1 meter ribbon cable for camera
 |
 |SainSmart 5V relay (2 channels)
-|IR LEDS
+|IR LEDS (make sure they are less than 900 nm)	|$1.15	|[link](http://www.mouser.com/ProductDetail/Vishay-Semiconductors/TSFF5210/?qs=%2Fjqivxn91ccEC8ExOpxzXA%3D%3D)
 |White LED
-|DHT Temperature and Humidity Sensor
-|Low Profile Running Wheels (Med Associates)
-|4x hall effect sensors
+|
+|Low Profile Non Counting Running Wheels (Med Associates, ENV-044-02)	|		[link](http://www.med-associates.com/product/non-counting-running-wheel-for-mouse/)
+|4x hall effect sensors					|$1			|[link](https://www.sparkfun.com/products/9312)
+|4x 660 Ohm resistors (gold/brown/blue/blue)
 |
 |DHT22 Temperature and Humidity Sensor
 |
-|Wood or 80/20 parts to build frame
+|Wood or [80/20 parts][4] to build frame
 |Something to hold camera
 
 ## To Do
@@ -112,3 +121,4 @@ This image is oriented as if pins on Raspberry Pi are in the top-left corner.
 [1]: http://blog.cudmore.io/post/2016/05/21/raspian-jessie/
 [2]: https://github.com/adafruit/Adafruit_Python_DHT
 [3]: https://www.adafruit.com/products/385
+[4]: https://www.8020.net
