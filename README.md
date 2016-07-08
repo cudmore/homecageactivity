@@ -12,19 +12,29 @@ All events are logged to file in `/home/pi/video/`. The name of the log file is 
 
  - Requires a Raspberry Pi. See [this post][1] to install a base Raspian system on a Raspberry Pi.
 
+ - Install screen
+ 
+     ```
+     sudo apt-get install screen
+     ```
+     
+We need to use screen so the code continue to run even after the pi user logs out. Detach/exit `screen` sessions but keep the process running with ctrl+a then d.
+
+    ```
+    ctrl+a then d
+	```
+	
  - All code is written in Python using widely used libraries. Most of these Python libraries should already be installed by default. If libraries are missing, here are the required libraries.
 
+    ```
     RPi.GPIO
     picamera
 	Adafruit_DHT # requires install
+	```
 	
- - Install screen
- 
-     sudo apt-get install screen
-     
  - To use a [DHT22 temperature sensor][3], install the [Adafruit_DHT][2] library.
 
- - Clone the repository and run code as described above in 'Usage'.
+ - Clone the repository
     
     git clone https://github.com/cudmore/homecageactivity.git
     
@@ -40,10 +50,6 @@ All events are logged to file in `/home/pi/video/`. The name of the log file is 
     #exit screen with ctrl+a then d
     ```
     
-We need to use screen so the code continue to run even after the pi user logs out. Detach/exit `screen` sessions but keep the process running with ctrl+a then d.
-
-    ctrl+a then d
-	
 ## GPIO Pins
 
 |Pin		|Goes To
