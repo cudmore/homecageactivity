@@ -10,7 +10,7 @@ A Raspberry Pi computer and camera to continuously record video of small animals
  - Optionally records temperature every 30 seconds (is this correct? Seems too much?)
  - Listens for triggering of 4 magnetic hall sensors (2 per wheel) and records to file. 
 
-All events are logged to file in `/home/pi/video/`. The name of the log file is timestamp for when code is started (YYYYMMDD_HHMMSS.txt).
+All events are logged to files saved in the video/ folder. The name of the log file is timestamp for the date and time for when the code is started. For example, YYYYMMDD_HHMMSS.txt.
 
 ## Installation
 
@@ -19,11 +19,11 @@ All events are logged to file in `/home/pi/video/`. The name of the log file is 
 See [this post][1] to install a base Raspian system on a Raspberry Pi.
 
 ### Install screen
+
+We need to use `screen` so the code continues to run even after the pi user logs out. 
  
     sudo apt-get install screen
      
-We need to use `screen` so the code continues to run even after the pi user logs out. Detach/exit `screen` sessions but keep the process running with ctrl+a then d.
-
 ### Required Python libraries
 
 All code is written in Python using widely used libraries. Most of these Python libraries should already be installed by default. If libraries are missing, here are the required libraries.
@@ -49,6 +49,7 @@ To use a [DHT22 temperature sensor][3], install the [Adafruit_DHT][2] library.
     screen
     python testhome.py
     #exit screen with ctrl+a then d
+    
 
 ## Returning to the running code
 
@@ -98,10 +99,11 @@ This image is oriented as if pins on Raspberry Pi are in the top-left corner.
 |
 |DHT22 Temperature and Humidity Sensor	|$10 or $2.50	|[adafruit](https://www.adafruit.com/products/385?gclid=Cj0KEQjwnv27BRCmuZqMg_Ddmt0BEiQAgeY1l1NmWl3j3_Q5uEAS-RAe3_luII1h8TaL2mgiaDXgFUYaAr_48P8HAQ) or [ali express](http://www.aliexpress.com/w/wholesale-dht22.html)
 |
+|128 GB USB Stick (Sandisk ultra USB3)	|$28	|[b&h](http://www.bhphotovideo.com/bnh/controller/home?O=&sku=1189477&gclid=Cj0KEQjwnv27BRCmuZqMg_Ddmt0BEiQAgeY1lweahunG9gJY00-qXae6HVD_P1DI32DbZTyo-QkGygsaAuIQ8P8HAQ&is=REG&ap=y&m=Y&c3api=1876%2C92051678402%2C&A=details&Q=)
 |Wood or [80/20 parts][4] to build frame
 |Something to hold camera
 |
-|	|Total $120	|
+|	|Total $150	|
 
 ## To Do
 
