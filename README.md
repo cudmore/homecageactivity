@@ -21,11 +21,34 @@ All events are logged to file in `/home/pi/video/`. The name of the log file is 
 
 ## Installation
 
-Requires a Raspberry Pi. Clone the repository and run code as described above in 'Usage'.
+ - Requires a Raspberry Pi. See [this post][1] to install a base Raspian system on a Raspberry Pi.
+
+ - All code is written in Python using widely used libraries. Most of these Python libraries should already be installed by default. If libraries are missing, here are the required libraries.
+
+    RPi.GPIO
+    picamera
+	Adafruit_DHT # requires install
+	
+ - Install screen
+ 
+     sudo apt-get install screen
+     
+ - To use a [DHT22 temperature sensor][3], install the [Adafruit_DHT][2] library.
+
+ - Clone the repository and run code as described above in 'Usage'.
     
     git clone https://github.com/cudmore/homecageactivity.git
     
+ - Run the code
 
+    cd homecageactivity
+    screen
+    python video.py
+    #exit screen with ctrl+a then d
+    screen
+    python testhome.py
+    #exit screen with ctrl+a then d
+ 	
 ## GPIO Pins
 
 |Pin		|Goes To
@@ -79,4 +102,6 @@ This image is oriented as if pins on Raspberry Pi are on the top-left.
  
  
 [screen]: https://www.gnu.org/software/screen/
- 
+[1]: http://blog.cudmore.io/post/2016/05/21/raspian-jessie/
+[2]: https://github.com/adafruit/Adafruit_Python_DHT
+[3]: https://www.adafruit.com/products/385
