@@ -16,16 +16,12 @@ See [this post][1] to install a base Raspian system on a Raspberry Pi.
 
 ### Install screen
  
-     ```
-     sudo apt-get install screen
-     ```
+    ```
+    sudo apt-get install screen
+    ```
      
 We need to use `screen` so the code continues to run even after the pi user logs out. Detach/exit `screen` sessions but keep the process running with ctrl+a then d.
 
-    ```
-    ctrl+a then d
-	```
-	
 ### Required Python libraries
 
 All code is written in Python using widely used libraries. Most of these Python libraries should already be installed by default. If libraries are missing, here are the required libraries.
@@ -93,7 +89,7 @@ This image is oriented as if pins on Raspberry Pi are in the top-left corner.
 |Raspberry Pi NoIR Camera (5MP or 8MP)	|$30		|[adafruit](https://www.adafruit.com/products/3100)
 |>1 meter ribbon cable for camera		|$3			|[adafruit](https://www.adafruit.com/products/1731)
 |
-|SainSmart 5V relay (2 channels)		|$10		|[sainsmart](http://www.sainsmart.com/arduino-pro-mini.html)[amazon](https://www.amazon.com/SainSmart-101-70-100-2-Channel-Relay-Module/dp/B0057OC6D8)
+|SainSmart 5V relay (2 channels)		|$10		|[sainsmart](http://www.sainsmart.com/arduino-pro-mini.html) or [amazon](https://www.amazon.com/SainSmart-101-70-100-2-Channel-Relay-Module/dp/B0057OC6D8)
 |IR LEDS (make sure they are less than 900 nm)	|$1.15	|[link](http://www.mouser.com/ProductDetail/Vishay-Semiconductors/TSFF5210/?qs=%2Fjqivxn91ccEC8ExOpxzXA%3D%3D)
 |White LED (single led or strip)		|$1 or $5		|[sparkfun single](https://www.sparkfun.com/products/531) or [mouser strip](http://www.mouser.com/ProductDetail/JKL-Components/ZM-1968-CW/?qs=KUIzHt%2Fe91klcUtDWfJwhA%3D%3D&gclid=Cj0KEQjwnv27BRCmuZqMg_Ddmt0BEiQAgeY1l4wLADWjvwtGyfVCdmIcRtSdBy2aHZ_GjnWzUa5ycMgaAgYv8P8HAQ)
 |
