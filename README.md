@@ -1,3 +1,7 @@
+##Purpose
+
+A Raspberry Pi computer and camera to continuously record video of small animals in their  cage.
+
 ## Features
 
  - Records video in 5 minute chunks, saving .h264 files into video/ folder.
