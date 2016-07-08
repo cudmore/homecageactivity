@@ -96,6 +96,8 @@ This image is oriented as if pins on Raspberry Pi are in the top-left corner.
 |
 |Wood or [80/20 parts][4] to build frame
 |Something to hold camera
+|
+|	|Total $120	|
 
 ## To Do
 
