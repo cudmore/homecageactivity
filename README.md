@@ -1,14 +1,3 @@
-## Usage
-
-Run each of these in a [screen][screen] session.
-
-    python video.py
-    python testhome.py
-
-Detach/exit `screen` sessions but keep the process running with ctrl+a then d
-
-This code uses the class defined in home.py
-  
 ## Features
 
  - Records video in 5 minute chunks, saving .h264 files into '/home/pi/video/' folder.
@@ -48,7 +37,11 @@ All events are logged to file in `/home/pi/video/`. The name of the log file is 
     screen
     python testhome.py
     #exit screen with ctrl+a then d
- 	
+
+We need to use screen so the code continue to run even after the pi user logs out. Detach/exit `screen` sessions but keep the process running with ctrl+a then d.
+
+    ctrl+a then d
+	
 ## GPIO Pins
 
 |Pin		|Goes To
@@ -63,7 +56,7 @@ All events are logged to file in `/home/pi/video/`. The name of the log file is 
 |14			|Wheel 2, sensor 1
 |15			|Wheel 2, sensor 2
 
-This image is oriented as if pins on Raspberry Pi are on the top-left.
+This image is oriented as if pins on Raspberry Pi are in the top-left corner.
 
 <IMG SRC="images/Raspberry-Pi-GPIO-Layout-Model-B-Plus.png" width=700>
        
