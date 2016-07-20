@@ -3,7 +3,7 @@ import time, datetime
 import home
 from random import randrange #for testing
 
-tempInterval = 30 # 1*60 #2*60 == 2 minutes
+tempInterval = 3*60 # 1*60 #2*60 == 2 minutes
 lasttime = -tempInterval
 
 numEventsToPurge = 200 #ammass this number of events and then purge
@@ -40,6 +40,9 @@ while True:
 		hour = datetime.datetime.fromtimestamp(now).hour
 		turnOnIR = (hour >= 18 or hour < 6) and (h.ir()==0)
 		turnOnWhite = hour>=6 and hour<18 and (h.white()==0)
+		#swapped
+		#turnOnWhite = (hour >= 18 or hour < 6) and (h.ir()==0)
+		#turnOnIR = hour>=6 and hour<18 and (h.white()==0)
 		if turnOnWhite:
 			h.white(1)
 			h.ir(0)
@@ -57,7 +60,7 @@ while True:
 				ts = h.timestamp()
 				(temp, hum) = h.temperature()
 				#if temp and hum: #don't log errors
-				print ts, 'tandh', temp, hum
+				print ts, 'tandh is:', temp, hum
 				h.logfile_write(ts, 'tandh', temp, hum)
 			except:
 				raise

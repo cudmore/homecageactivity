@@ -23,6 +23,7 @@ while True:
 
 			if(actuallyRecord==1):
 				#camera.resolution = (2592, 1944)
+				camera.led = False
 				camera.resolution = (640, 480)
 				camera.framerate = 15
 		
